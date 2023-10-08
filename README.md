@@ -23,7 +23,7 @@
 
 * порядок запуска в докер контейнерах
 
-    `docker-compose up -d --build` - сбрка и запуск контейнеров
+    `docker-compose up -d --build` - сборка и запуск контейнеров
 
     `docker-compose exec web python manage.py makemigrations` - создание миграций
 
@@ -31,7 +31,7 @@
 
     `docker-compose exec web python manage.py createsuperuser` - создание суперюзера
 
-    `docker-compose exec web python manage.py collectstatic --no-input` - сбор статистики
+    `docker-compose exec web python manage.py collectstatic --no-input` - сбор статики
 
 * создайте файл `.env` в корневой директории проекта:
     
