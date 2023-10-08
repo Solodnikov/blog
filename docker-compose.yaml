@@ -28,8 +28,6 @@ services:
       # через директорию /app/media/
       - media_value:/app/media/    
     
-    # ports:
-    #  - "8000:8000"
     depends_on:
       - db
     env_file:
